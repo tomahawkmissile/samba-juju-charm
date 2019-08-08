@@ -1,0 +1,12 @@
+includes:
+  - "layer:basic"
+  - "layer:apt"
+  - "layer:options"
+options:
+  apt:
+    packages:
+      - samba
+  basic:
+    packages: []
+    use_venv: true
+    include_system_packages: true

@@ -1,0 +1,21 @@
+[global]
+workgroup = WORKGROUP
+server string = {{cfg.server_name}}
+netbios name = ubuntu
+security = user
+map to guest = bad user
+dns proxy = no
+wins support = yes
+local master = yes
+preferred master = yes
+
+#============================ Share Definitions ============================== 
+
+[share]
+path = /opt/samba/share
+valid users = ubuntu
+guest ok = no
+writable = yes
+browsable = yes
+create mask = 0770
+force group = juju-samba-ubuntu

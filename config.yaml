@@ -1,0 +1,13 @@
+options:
+  server_name:
+    type: string
+    default: "Samba Server"
+    description: "The name of this samba server to be displayed"
+  password:
+    type: string
+    default: password
+    description: "The password to connect to the samba file share"
+  online:
+    type: boolean
+    default: True
+    description: "Set the status of the server"
