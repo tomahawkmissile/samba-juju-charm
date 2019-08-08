@@ -7,8 +7,3 @@ Important things to know:
 - Workgroup for the server is 'WORKGROUP'
 - Windows compatible
 - Storage directory is '/opt/samba/share'
-
-This charm is in alpha so many more features are coming!
-=======
-# samba-juju-charm
-Samba file server JuJu charm
