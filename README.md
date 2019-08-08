@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---Samba JuJu charm README file---
 
 Important things to know:
@@ -13,4 +12,3 @@ This charm is in alpha so many more features are coming!
 =======
 # samba-juju-charm
 Samba file server JuJu charm
->>>>>>> 193de037e49eae1d5586ac42cacc006df806a25f
