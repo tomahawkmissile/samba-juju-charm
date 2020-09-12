@@ -1,12 +1,9 @@
 name: samba
 display-name: Samba Server
 summary: Creates a samba server.
-maintainer: Elijah R. <elijahreed500@gmail.com>
+maintainer: Elijah R.
 description: |
   Allows users to share files across a local network or accross the internet if a VPN is used.
-  Current supported application are...
-  - OpenVPN server
-  - Paraview server core
 tags:
   - network
   - storage
